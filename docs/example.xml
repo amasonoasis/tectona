@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="http://timberproject.org/tectona">
+    <meta>
+        <to />
+        <from />
+        <subject />
+        <headers />
+        <envelope>
+            <sender />
+        </envelope>
+        <base>http://foo.com/bar</base>
+    </meta>
+    <subs>
+        <!-- this contains misc data that you want to use in the template -->
+<!--         <firstName /> -->
+<!--         <lastName /> -->
+        
+        
+    </subs>
+    <body >
+        Dear <title /> <firstName/>,
+        Your freind <friend/> has decided to give you a link to flah <link />
+        
+        Yours Sincerely,
+        <friend />
+    </body>
+</template>

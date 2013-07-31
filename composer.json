@@ -1,0 +1,20 @@
+{
+    "name": "zuraktim/tectona",
+    "description": "Library for sending plaintext/html email using xml/xslt as the template engine",
+    "license": "GPLv3+,LGPLv2+",
+    "authors": [
+        {
+            "name": "Tim Zurak",
+            "email": "zuraktim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tectona": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}
